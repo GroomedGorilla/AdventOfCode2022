@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path(__file__).with_name("input.txt")
+p = Path("input.txt")
 elves = []
 sum = 0
 
