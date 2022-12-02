@@ -14,5 +14,4 @@ with p.open('r') as f:
     elves.append(sum)
 
 chonkmaster = elves.index(max(elves))
-elves.sort
 print(f'Chonkiest elf is num {chonkmaster + 1} with {max(elves)} Calories ')
